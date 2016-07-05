@@ -2,6 +2,9 @@ Assignment 1--Auto fulfilment for DB request
 
 Business Requirement: 
 
+  Problem Statement
+
+
 QC:
   Spec(Possible Solution),
     Excel-->SSIS-->Create DB objects
