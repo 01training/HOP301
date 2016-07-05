@@ -1,2 +1,59 @@
 Assignment 1--Auto fulfilment for DB request
 
+Business Requirement: 
+
+QC:
+  Spec(Possible Solution),
+    Excel-->SSIS-->Create DB objects
+
+MG:
+  objects: Table/View
+  
+LS:
+
+Lotus:
+    
+    Excel-->SSIS-->Create DB objects
+------------------------------------------------    
+Create DB objects
+  Table
+    Create
+    Alter
+      Drop column
+      Add column
+      Change Type
+    Drop
+  View (not support)    
+  Procedure (not support)
+  Function (not support)
+  
+Mutliple Requests (Support)
+  
+  
+  ==========================================================================
+  Spec: 
+    UI
+    To store the information of requests
+    Pre-validation
+      Information sufficient
+      naming convention
+      ...
+    Workflow
+      Human being invovoled to approve or disapporve
+    Process(fulfil DB request)
+    Notifcation
+    
+  --------------------------------------------------------------------------
+ Design 
+  UI-->Excel/Txt/Master Data Service/SSMS
+    Excel Template
+  Table Design
+  Pre-Validation (Proc)
+  Fulfilment(Proc)
+  DB Mail
+  Automatic (SQL job)
+    
+  
+  
+  
+  
