@@ -45,7 +45,7 @@ Mutliple Requests (Support)
     
   --------------------------------------------------------------------------
  Design 
-  UI-->Excel/Txt/Master Data Service/SSMS
+  UI-->Excel/Txt/Master Data Service/SSMS/InfoPath
     Excel Template
   Table Design
   Pre-Validation (Proc)
