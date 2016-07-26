@@ -1,3 +1,75 @@
 Meeting Minutes (7/18/2016), 
 
 
+
+Daily Meeting (7/25/2016)
+MC: 
+  Done
+    Read user guide
+    Created 2 tables
+  To Do
+    SSIS Load data
+      Report Format
+      
+LS X:
+  Done
+    Table Created
+    Tried SSIS to load samle data
+  To Do
+  
+LJ:
+    Done
+      Read user guide
+      create stage tables
+      SSIS package
+
+----------------------------------------------------------------------------------------------------------------------
+Regarding the user guide
+  0, Txt files, file pattern
+    Origination: historical_data1_QnYYYY.txt; 
+    Monthly Performance: historical_data1_time_QnYYYY 
+    delimiter: |
+  1, Table definition, column description
+  2, 2 files
+    Origination---One Loan
+    Monthly Performance---Loan Payment History
+  3, Frequency
+    Quarterly feeding
+    Daily check the folder
+  4, Raw files----(SSIS)--->Staging-->DWH
+  
+  
+  To Do in Class:
+    Create stage tables
+  
+  Homework:
+    Source-target Document
+    Create FACT/Dimension
+    ETL to load files to Stage
+    Stage-->Dim/Fact
+    DimDate
+  
+  
+  
+    
+    
+    
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+    
+    
+    
+
+      
+
+
