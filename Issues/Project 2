@@ -65,7 +65,7 @@ Regarding the user guide
       4, in order to keep history, dump stg to stg_history and clean up stg each time after loading to fact
       Exception handling(duplicates files/records)
       All incremental load
-      each pachage should have unit test cases
+      each pachage should have unit test cases and time consuming for each load
       System test
     
     One table per package
