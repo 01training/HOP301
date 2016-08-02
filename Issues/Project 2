@@ -42,7 +42,7 @@ Regarding the user guide
   To Do in Class:
     Create stage tables
   
-  Homework:
+  Homework(July 25):
     Source-target Document
     Create FACT/Dimension
     ETL to load files to Stage
@@ -50,6 +50,37 @@ Regarding the user guide
     DimDate
   
   
+  
+  Notes for Aug 1:
+    Source-target Document
+      -->One destination table per sheet
+      -->List all dimensions and fact tables
+      -->Special Dimension table : dimDate(fulldatekey)
+    
+    Create FACT/Dimension
+      0, Aach table should have primary key
+      1, Raw-->Stg
+      2, Stg-(view)->Dimension
+      3, Stg-(view)->Fact
+      4, in order to keep history, dump stg to stg_history and clean up stg each time after loading to fact
+      Exception handling(duplicates files/records)
+      All incremental load
+      each pachage should have unit test cases
+      System test
+    
+    One table per package
+    master package to wrap up all single packages(dependency)
+    SQL Agent
+    
+    DimDate
+    -->Scripts to generate
+  
+  
+  Homework for next time
+    -->finish DIM/FACT
+    -->SSAS Cube
+    -->Reports(Tableau/SSRS/PowerBI)
+    
   
     
     
