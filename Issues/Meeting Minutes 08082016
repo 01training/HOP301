@@ -1,0 +1,20 @@
+LJ
+  Done: DWH Design
+  Diffculties: 
+    1, Data Understanding--Diemnsion/Fact
+    2, How to prevent the same file coming more than once
+      1) file processing log (Good for out case)
+      2) PK not in Persitent layer
+      
+LS X
+  Staging-->DWH
+  Finished origination
+
+NW
+  Finished Origination ETL design
+
+QC Z
+  Staging-->DWH
+  Need to study Cube design
+  
+-----------------------------------------------  
