@@ -1,0 +1,38 @@
+Which one to choose?
+1, M-M?
+  2, Row-level Security
+  3, Role-Playing Dimension
+  4, Performance 
+
+
+
+SSAS Tabular Cube
+  DAX
+
+
+
+MultiDimensional Cube
+  Star Schema
+  (Fact/Dimension)
+  Fact
+    Measure Groups
+    Poor Performance Aggregations(to be assigned in single along measure group)
+    Aggegration
+      Sum/Avg
+      Semi-Aggregation: LastChild
+      MDX
+        YTD/MTD/QTD/ToT/MoM/QoQ
+  Dimension
+      Hierarchy--Relationship
+      Flexible/rigid(1-n)
+  Aggregation
+      HOLAP---MOLAP
+  Partition
+    By YYYY
+  Role
+    Admin/Reader
+    Dimension atrribute security level
+  
+  
+  
+  
